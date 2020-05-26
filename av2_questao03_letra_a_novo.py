@@ -16,7 +16,7 @@ y = casos_acumulados
 x_estimado = 58 # referente ao dia 26/abril/2020
 
 # Modelo polinomial baseado em equação do segundo grau
-coeficiente = numpy.polyfit(x, y, 3) # Polinomio segundo grau
+coeficiente = numpy.polyfit(x, y, 3) # Polinomio terceiro grau
 mymodel = numpy.poly1d(coeficiente)
 print(mymodel) # Imprimir modelo polinomial
 

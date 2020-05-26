@@ -13,7 +13,7 @@ casos_acumulados=[0,0,0,0,1,1,2,3,3,8,13,16,16,22,24,31,33,45,65,109,119,186,233
 y = casos_acumulados
 
 # inserir o dia de apuração para calcular a estimativa de casos acumulados
-x_estimado = 58 # referente ao dia 26/abril/2020
+x_estimado = 58 # referente ao dia 27/abril/2020
 
 # Modelo polinomial baseado em equação do segundo grau
 coeficiente = numpy.polyfit(x, y, 3) # Polinomio terceiro grau

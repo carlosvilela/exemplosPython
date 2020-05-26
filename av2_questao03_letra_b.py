@@ -92,3 +92,4 @@ plt.plot(myline, mymodel(myline))
 plt.legend([texto, texto1]) # mostrar estimativa no grafico
 print("===============================================================================================================")
 plt.show()
+
